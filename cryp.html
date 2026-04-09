@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Converter</title>
+<link rel="stylesheet" href="cryp.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Crypto Currency Converter</h1>
+
+<div class="input-group">
+<input type="number" id="amount" placeholder="Enter Amount">
+</div>
+
+<div class="input-group">
+
+<select id="crypto">
+<option value="bitcoin">Bitcoin</option>
+<option value="ethereum">Ethereum</option>
+<option value="litecoin">Litecoin</option>
+<option value="ripple">Ripple</option>
+</select>
+
+<select id="currency">
+<option value="usd">USD</option>
+<option value="inr">INR</option>
+<option value="eur">EUR</option>
+<option value="gbp">GBP</option>
+</select>
+
+</div>
+
+<button onclick="convertCrypto()">Convert</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="cryp.js"></script>
+
+</body>
+</html>
