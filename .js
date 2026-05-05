@@ -1,3 +1,4 @@
+#jss file
 const fromCurrency = document.getElementById("fromCurrency");
 const toCurrency = document.getElementById("toCurrency");
 const convertBtn = document.getElementById("convertBtn");
